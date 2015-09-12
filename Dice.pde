@@ -80,7 +80,7 @@ class Die //models one single dice cube
 		}
 		if(value == 5)
 		{
-			colors = color(240, 255, 255); //blue.... HERE!!!
+			colors = color(204, 229, 255); //blue
 			ellipse(myX+25, myY+25, 15, 15); //top left point
 			ellipse(myX+75, myY+75, 15, 15); //bottom right point
 			ellipse(myX+25, myY+75, 15, 15); //top rith
@@ -90,7 +90,7 @@ class Die //models one single dice cube
 		}
 		if(value == 6)
 		{
-			colors = color(230, 230, 250);
+			colors = color(299, 204, 255); //purple
 			ellipse(myX+25, myY+25, 15, 15); //top left point
 			ellipse(myX+75, myY+75, 15, 15); //bottom right point
 			ellipse(myX+25, myY+75, 15, 15); //top rith
